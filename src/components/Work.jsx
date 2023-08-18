@@ -1,6 +1,7 @@
 import React from 'react'
 import TVShow from '../assets/projects/tvShow.jpg'
 import ToDo from '../assets/projects/todo.jpg'
+import Foodorder from '../assets/projects/food-order.jpg'
 
 const Work = () => {
   return (
@@ -42,6 +43,23 @@ const Work = () => {
                     <button className='text-center rounded-lg px-4 py-3 m-3 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                   </a>
                   <a href='https://github.com/nikkisingh0204/To-Do-List-React'>
+                    <button className='text-center rounded-lg px-4 py-3 m-3 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                  </a>
+                </div>
+            </div>
+          </div>
+          <div style={{backgroundImage: `url(${Foodorder})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            
+            {/* Hover Effect */}
+            <div className='opacity-0 group-hover:opacity-100'>
+                <span className='text-2xl font-bold text-white tracking-wider'>
+                    Simple Food Order App
+                </span>
+                <div className='pt-8 text-center'>
+                  <a href='https://react-meals-rust.vercel.app/'>
+                    <button className='text-center rounded-lg px-4 py-3 m-3 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                  </a>
+                  <a href='https://github.com/nikkisingh0204/react-meals'>
                     <button className='text-center rounded-lg px-4 py-3 m-3 bg-white text-gray-700 font-bold text-lg'>Code</button>
                   </a>
                 </div>
